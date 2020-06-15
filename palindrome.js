@@ -8,10 +8,9 @@
 
 
 
-function getPalindrome(word) {
-
-    return word.toLowerCase() === word.split('').reverse('').join('').toLowerCase()
-    
+function getPalindrome(string) {
+    let word = string.toLowerCase();
+    return word === string.split('').reverse('').join('');
 }
 
 console.log(getPalindrome('hello'));
