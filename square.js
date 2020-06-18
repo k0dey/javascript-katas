@@ -19,7 +19,7 @@ Given an integral number, determine if it's a square number:
 
 
 // // WEIRD MATH WAY
-// // IGNORE THIS IT DOESN'T WORK YET
+// // NEED TO ADD EXTRA CHECK AS IT DOESN'T FIND PERFECT SQUARES YET
 
 // function isSquared(num) {
 //    let digitalRoot = 1 + (num - 1) % 9;
