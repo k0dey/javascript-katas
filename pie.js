@@ -14,6 +14,13 @@ function equalSlices(total, recipients, slices) {
     }
 }
 
+
+// alternative fuction, returns true/false only
+
+// function equalSlices(total, recipients, slices) {   
+//         return total >= (recipients * slices);
+//     }
+
 console.log(equalSlices(11, 5, 3)); // false
 console.log(equalSlices(8, 3, 2)); // true
 console.log(equalSlices(24, 12, 2)); // true
